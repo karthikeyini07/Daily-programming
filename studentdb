@@ -1,0 +1,29 @@
+import java.util.*;
+class address
+{
+  public static void main(String[] args)
+  {
+    Scanner obj=new Scanner(System.in);
+    String str=obj.next();
+    int num=obj.nextInt();
+    int dd=obj.nextInt();
+    int mm=obj.nextInt();
+    int yy=obj.nextInt();
+    if((dd>0)&&(dd<10)||(mm<0)&&(mm>10)||(1900>yy)&&(yy<2100))
+    {
+      System.out.print(str+" "+num+" "+"0"+dd+"/"+"0"+mm+"/"+yy);
+    }
+    else if(dd>10&&mm<10)
+    {
+      System.out.print(str+" "+num+" "+dd+"/"+"0"+mm+"/"+yy);
+    }
+    else if(dd<10&&mm>10)
+    {
+      System.out.print(str+" "+num+" "+"0"+dd+"/"+mm+"/"+yy);
+    }
+    else
+    {
+      System.out.print(str+" "+num+" "+dd+"/"+mm+"/"+yy);
+    }
+  }
+}
