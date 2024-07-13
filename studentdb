@@ -17,4 +17,9 @@ else if(dd>10&&m<10)
 {
 System.out.print(str+"num+" "+dd+"/"+"0"+mm+"/"+yy);
 }
-else if
+else if(dd<10&&mm>10)
+{
+System.out.print(str+" "+num+" "+dd+"/"+num+"/"+yy);
+}
+}
+}
