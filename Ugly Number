@@ -28,9 +28,9 @@ class Ugly
     if(num==1)
     {
       ugly[count]=c;
-      count++;
-      
-    }c++;
+      count++; 
+    }
+    c++;
     }
   }
 
