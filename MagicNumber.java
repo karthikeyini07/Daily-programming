@@ -1,4 +1,5 @@
 import java.util.*;
+
 class MagicNumber
 {
   public static void main(String[] args)
