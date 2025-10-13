@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-       long n=scanner.nextLong();
+       long n=scanner.next();
        long c=squareNumber(n);
        long a=n;
        long d=reverse(a);
